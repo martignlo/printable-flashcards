@@ -69,9 +69,3 @@ Generate an A4-sized PDF with solid borders and a 3x3 grid (9 cards):
 ```bash
 python generate_flashcards.py vocab.csv 9 cards_a4.pdf --page-size a4 --border-style solid
 ```
-
-## Running Tests
-
-```bash
-pytest
-```
